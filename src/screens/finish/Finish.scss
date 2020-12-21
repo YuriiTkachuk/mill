@@ -1,0 +1,108 @@
+@import '../../styles/colors.scss';
+
+.finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: $black-5;
+
+  svg {
+    max-width: 100%;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 624px;
+
+    span {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 116%;
+      display: flex;
+      align-items: center;
+      color: $black-100;
+      opacity: 0.5;
+    }
+
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 116%;
+      color: $black-100;
+      margin-bottom: 64px;
+      margin-top: 8px;
+    }
+
+    button {
+      height: 64px;
+      width: 296px;
+      background: $orange-100;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 116%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: $white-100;
+      justify-content: center;
+      border: unset;
+      cursor: pointer;
+
+      &:hover {
+        background: $orange-80;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .finish {
+    flex-direction: column;
+
+    &-info {
+      max-width: unset;
+      align-items: center;
+
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 566px) {
+  .finish {
+    &-info {
+      h1 {
+        font-size: 32px;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 2000px) {
+  .finish {
+    &-info {
+      max-width: unset;
+      h1 {
+        font-size: 100px;
+      }
+
+      button {
+        height: 100px;
+        width: 500px;
+        font-size: 55px;
+      }
+    }
+
+    svg {
+      width: 50%;
+      height: 100%;
+    }
+  }
+}

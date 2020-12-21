@@ -1,0 +1,26 @@
+{
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": false,
+    "source.fixAll.tslint": false
+  },
+  "jest.autoEnable": false,
+  "editor.formatOnSave": true,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.enablePreview": false,
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.importStringConfiguration.tabType": "space",
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+  "importSorter.importStringConfiguration.quoteMark": "single",
+  "importSorter.sortConfiguration.removeUnusedImports": false,
+  "importSorter.sortConfiguration.removeUnusedDefaultImports": false,
+  "debug.node.autoAttach": "off",
+  "jscpd.files": "./src",
+  "files.eol": "\n",
+  "typescript.tsdk": "/home/yurii/mill/node_modules/typescript/lib"
+}

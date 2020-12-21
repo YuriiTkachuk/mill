@@ -1,0 +1,220 @@
+{
+  "$500": [
+    {
+      "question": "What sort of animal is Walt Disney's Dumbo?",
+      "correct": ["Elephant"],
+      "wrong": ["Donkey", "Rabbit", "Deer", "Wolf", "Snake", "Fox"]
+    },
+    {
+      "question": "The annual half-marathon the Great North Run starts in which UK city?",
+      "correct": ["Newcastle", "Newcastle upon Tyne"],
+      "wrong": [
+        "Sheffield",
+        "Liverpool",
+        "Leeds",
+        "London",
+        "Belfast",
+        "Birmingham"
+      ]
+    }
+  ],
+  "$1000": [
+    {
+      "question": "In mythology, which creature sprang from the blood of the Medusa?",
+      "correct": ["Pegasus"],
+      "wrong": ["Griffin", "Hydra", "Centaur", "Dragon", "Manticore"]
+    },
+    {
+      "question": "The word ‘batrachian’ describes which animals?",
+      "correct": ["Frogs and toads", "Toads and frogs"],
+      "wrong": [
+        "Monkeys and apes",
+        "Rats and mice",
+        "Hares and rabbits",
+        "Dogs and wolves",
+        "Tigers and lions"
+      ]
+    }
+  ],
+  "$2000": [
+    {
+      "question": "A spork is a utensil that typically combines a fork with which other item?",
+      "correct": ["Spoon"],
+      "wrong": ["Colander", "Whisk", "Corkscrew", "Knife", "Toothpick"]
+    },
+    {
+      "question": "Which of these is regarded as a national symbol of Canada?",
+      "correct": ["Maple Leaf", "The beaver"],
+      "wrong": ["Fig Leaf", "Fern Leaf", "Tea Leaf", "Lion", "Elk"]
+    }
+  ],
+  "$4000": [
+    {
+      "question": "In the novel ‘The Lord of The Rings’, Frodo, Sam and Bilbo come from which region of Middle Earth?",
+      "correct": ["The Shire"],
+      "wrong": ["The Green", "The Borough", "The City", "Minas tirith"]
+    },
+    {
+      "question": "The words ‘Royal Dutch’ appear in the full name of which company?",
+      "correct": ["Shell"],
+      "wrong": ["Esso", "BP", "Texaco", "Marlboro", "Van Gink"]
+    }
+  ],
+  "$8000": [
+    {
+      "question": "The national flag of which of these countries does not feature three horizontal stripes?",
+      "correct": ["Romania", "Ireland", "Norway"],
+      "wrong": ["Russia", "Hungary", "Germany", "Estonia", "Litva", "Luxemburg"]
+    },
+    {
+      "question": "The liqueur crème de cassis is made from which fruit?",
+      "correct": ["Blackcurrants"],
+      "wrong": ["Apples", "Pears", "Gooseberries", "Lemon", "Dog-rose"]
+    }
+  ],
+  "$16000": [
+    {
+      "question": "Which of these men was the first to win TWO Academy Awards for Best Director?",
+      "correct": ["Oliver Stone"],
+      "wrong": [
+        "Stephen Spielberg",
+        "Clint Eastwood",
+        "Francis Ford Coppola",
+        "Christopher Nolan",
+        "Martin Scorsese"
+      ]
+    },
+    {
+      "question": "Which of these words can be typed on a single row of a standard UK ‘QWERTY’ keyboard?",
+      "correct": ["Salad", "Salal", "Dash"],
+      "wrong": ["Cheese", "Pork", "Lager", "Beer", "Apple"]
+    }
+  ],
+  "$32000": [
+    {
+      "question": "Which of these real people has not been played on film or television by Benedict Cumberbatch?",
+      "correct": ["Tony Blair", "King Henry VI", "Josef Mengele"],
+      "wrong": [
+        "Dominic Cummings",
+        "Julian Assange",
+        "Alan Turing",
+        "William Carey",
+        "King Richard III"
+      ]
+    },
+    {
+      "question": "In the Bible, which land is said to be ‘east of Eden’?",
+      "correct": ["Nod"],
+      "wrong": ["Nineveh", "Nazareth", "Nimrud", "Nahor", "Nahrain"]
+    }
+  ],
+  "$64000": [
+    {
+      "question": "Which of these TV programmes first aired in the 1970s?",
+      "correct": ["Mastermind", "The Incredible Hulk"],
+      "wrong": [
+        "Til Death Us Do Part",
+        "Dad’s Army",
+        "Doctor Who",
+        "Moonlighting",
+        "Magnum, P.I."
+      ]
+    },
+    {
+      "question": "The name of which European capital city means ‘Bay of Smokes’ in its native language?",
+      "correct": ["Reykjavik"],
+      "wrong": ["Copenhagen", "Amsterdam", "Vilnius", "London", "Milan"]
+    }
+  ],
+  "$125000": [
+    {
+      "question": "Which is the only monarch that was both born and died at Buckingham Palace?",
+      "correct": ["Edward VII"],
+      "wrong": [
+        "Victoria",
+        "George V",
+        "George VI",
+        "William IV",
+        "William III",
+        "Edward V"
+      ]
+    },
+    {
+      "question": "Who was the first man to travel into space twice?",
+      "correct": ["Gus Grissom"],
+      "wrong": [
+        "Vladimir Titov",
+        "Michael Collins",
+        "Yuri Gagarin",
+        "Alexei Leonov"
+      ]
+    }
+  ],
+  "$250000": [
+    {
+      "question": "Construction of which of these famous landmarks was completed first?",
+      "correct": ["'Big Ben' Clock Tower", "Palace of Versailles"],
+      "wrong": [
+        "Empire State Building",
+        "Royal Albert Hall",
+        "Eiffel Tower",
+        "Statue of Liberty",
+        "Sydney Opera House"
+      ]
+    },
+    {
+      "question": "Construction of which of these famous landmarks was completed first?",
+      "correct": ["'Big Ben' Clock Tower", "Palace of Versailles"],
+      "wrong": [
+        "Empire State Building",
+        "Royal Albert Hall",
+        "Eiffel Tower",
+        "Statue of Liberty",
+        "Sydney Opera House"
+      ]
+    }
+  ],
+  "$500000": [
+    {
+      "question": "What does the word 'loquacious' mean?",
+      "correct": ["Chatty", "Blabby", "Talkative"],
+      "wrong": ["Angry", "Beautiful", "Shy", "Lazy", "Laconic"]
+    },
+    {
+      "question": "Which toys have been marketed with the phrase 'Robots in Disguise'?",
+      "correct": ["Transformers"],
+      "wrong": [
+        "Bratz Dolls",
+        "Sylvanian Families",
+        "Hatchimals",
+        "Machine Robo",
+        "Rock Lords"
+      ]
+    }
+  ],
+  "$100000": [
+    {
+      "question": "In 1718, which pirate died in battle off the coast of what is now North Carolina?",
+      "correct": ["Blackbeard", "Edward Teach"],
+      "wrong": [
+        "Calico Jack",
+        "Bartholomew Roberts",
+        "Captain Kidd",
+        "Long Ben",
+        "Anne Bonny"
+      ]
+    },
+    {
+      "question": "Which of these US presidents appeared on the television series 'Laugh-In?'",
+      "correct": ["Richard Nixon"],
+      "wrong": [
+        "Lyndon Johnson",
+        "Jimmy Carter",
+        "Gerald Ford",
+        "John Kennedy",
+        "David Eisenhower",
+        "Ronald Reagan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+@import '../../styles/colors.scss';
+
+.game {
+  display: flex;
+  background: $black-5;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  &-hamburger,
+  &-close {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    border: unset;
+    background: unset;
+  }
+
+  &-content {
+    padding: 120px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-question {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 116%;
+      display: flex;
+      align-items: center;
+      color: $black-100;
+      max-width: 624px;
+    }
+
+    &-variants {
+      display: flex;
+      width: 640px;
+      flex-wrap: wrap;
+
+      button {
+        margin-bottom: 32px;
+        padding: 0;
+      }
+    }
+  }
+
+  &-score {
+    display: flex;
+    flex-direction: column;
+    max-width: 376px;
+    background: white;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .game {
+    &-content {
+      padding: 120px 10px;
+
+      &-question {
+        text-align: center;
+      }
+
+      &-variants {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .game {
+    &-hamburger,
+    &-close {
+      display: block;
+    }
+
+    &-content {
+      width: 100%;
+
+      &-question {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      &-variants {
+        width: 100%;
+
+        button {
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    &-score {
+      display: none;
+      background: $black-5;
+      width: 100%;
+      max-width: unset;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 566px) {
+  .game {
+    &-content {
+      padding: 120px 0;
+      &-question {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (min-width: 2000px) {
+  .game {
+    &-content {
+      &-question {
+        font-size: 50px;
+      }
+
+      &-variants {
+        width: 1600px;
+
+        .block {
+          width: 800px;
+          height: 150px;
+
+          &-content {
+            padding: 0 100px;
+          }
+
+          b,
+          span {
+            font-size: 40px;
+          }
+        }
+
+        svg {
+          width: 800px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}

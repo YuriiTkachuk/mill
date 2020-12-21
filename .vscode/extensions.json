@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "kisstkondoros.vscode-codemetrics",
+    "alefragnani.numbered-bookmarks",
+    "esbenp.prettier-vscode",
+    "mike-co.import-sorter",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.vscode-eslint",
+    "firsttris.vscode-jest-runner",
+    "huizhou.githd",
+    "arturock.gitstash",
+    "formulahendry.auto-rename-tag",
+    "eamodio.gitlens",
+    "sanaajani.taskrunnercode",
+    "humao.rest-client",
+    "pflannery.vscode-versionlens"
+  ]
+}
