@@ -1,7 +1,8 @@
 {
   "name": "mill",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "http://yuriitkachuk.github.io/mill",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "eslint": "node_modules/.bin/eslint src/"
+    "eslint": "node_modules/.bin/eslint src/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +67,7 @@
     "eslint-plugin-prettier": "3.3.0",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.3.6",
     "prettier": "2.2.1",
     "prettier-eslint": "12.0.0",

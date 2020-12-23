@@ -90,7 +90,7 @@ const Game = ({ onFinish }: { onFinish: (score: string) => void }) => {
 
   const variants = React.useMemo(
     () => shuffle(questionsData[currentIndex].currentQuestion.values),
-    [currentIndex, questionsData]
+    [currentIndex]
   );
 
   return (
